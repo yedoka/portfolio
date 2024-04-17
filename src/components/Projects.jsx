@@ -46,7 +46,7 @@ const Projects = () => {
         id="projects"
         className="flex flex-col justify-center items-center dark:bg-neutral-900 dark:text-white"
       >
-        <div className="flex flex-col w-screen md:w-[1100px] md:h-[800px] px-5 ">
+        <div className="flex flex-col w-screen md:w-[1100px] md:h-[1000px] px-5 ">
           <h1 className="md:text-5xl text-2xl font-bold my-10 text-dark-blue">
             Projects
           </h1>
