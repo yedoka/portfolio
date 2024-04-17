@@ -2,6 +2,7 @@ import React from "react";
 import essentials from "../assets/essentials.png";
 import tictactoe from "../assets/tictactoe.png";
 import countdown from "../assets/countdown.png";
+import projectManagement from "../assets/project-management.png";
 
 const projects = [
   {
@@ -27,6 +28,14 @@ const projects = [
     imgUrl: countdown,
     demoUrl: "https://yedoka.github.io/almost-countdown/",
     githubUrl: "https://github.com/yedoka/almost-countdown",
+  },
+  {
+    id: 4,
+    title: "Project Management",
+    description: "A project management app built with React.",
+    imgUrl: projectManagement,
+    demoUrl: "https://yedoka.github.io/project-management/",
+    githubUrl: "https://github.com/yedoka/project-management",
   },
 ];
 
