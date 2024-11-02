@@ -1,0 +1,42 @@
+@use './variables.scss';
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+
+  .header__main {
+    padding: 20px 10px;
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .header__logo {
+      width: 100px;
+    }
+  }
+
+  .header__list {
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+
+    &__item:hover {
+      color: variables.$blue;
+    }
+  }
+}
+
+@media (max-width: 592px) {
+  .header__main {
+    justify-content: center !important;
+    text-align: center;
+  }
+  .header__logo {
+    margin-bottom: 20px;
+  }
+}

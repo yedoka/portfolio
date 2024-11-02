@@ -1,0 +1,68 @@
+@use 'variables.scss';
+
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .about__main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+
+    img {
+      width: 450px;
+      height: 315px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .about__content {
+      max-width: 550px;
+
+      .about__subtitle {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        color: variables.$blue;
+        margin-bottom: 10px;
+      }
+
+      .about__title {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      .about__text {
+        line-height: 1.5;
+        font-size: 16px;
+        color: variables.$grey;
+      }
+    }
+  }
+}
+
+@media (max-width: 1127px) {
+  .about {
+    margin: 50px 0 20px 0;
+    height: auto;
+
+    .about__main {
+      margin: 0 10px;
+      padding: 0 5px;
+      justify-content: center;
+      gap: 30px;
+      order: 2;
+
+      .about__content {
+        text-align: center;
+
+        .about__img {
+          order: 1;
+        }
+      }
+    }
+  }
+}
