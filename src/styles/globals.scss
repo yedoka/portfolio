@@ -1,4 +1,4 @@
-@import './variables.scss';
+@use './variables.scss';
 
 html {
   scroll-behavior: smooth;
@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  font-family: $primary-font;
+  background-color: variables.$white;
+  font-family: variables.$primary-font;
   font-size: 18px;
 }
 
@@ -36,5 +37,5 @@ button {
   outline: none;
   cursor: pointer;
   background-color: transparent;
-  font-family: $primary-font;
+  font-family: variables.$primary-font;
 }
