@@ -14,7 +14,7 @@ const Navbar = () => {
             to=""
             className="text-lg font-bold text-slate-200 hover:text-teal-300 transition-colors duration-200 ease-in-out"
           >
-            Akedil Aidyn
+            Akedil
           </NavLink>
         </h1>
 
